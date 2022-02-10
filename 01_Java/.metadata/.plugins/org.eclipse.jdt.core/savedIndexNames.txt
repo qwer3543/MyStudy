@@ -5,6 +5,7 @@ INDEX VERSION 1.131+C:\MyStudy\01_Java\.metadata\.plugins\org.eclipse.jdt.core
 806729469.index
 2448552664.index
 927317437.index
+<<<<<<< Updated upstream
 9489893.index
 2080836772.index
 651056199.index
@@ -13,8 +14,18 @@ INDEX VERSION 1.131+C:\MyStudy\01_Java\.metadata\.plugins\org.eclipse.jdt.core
 1960780524.index
 939871364.index
 984405575.index
-1059346286.index
+=======
+984405575.index
+2080836772.index
+1445374004.index
 827285296.index
+1960780524.index
+899522538.index
+651056199.index
+939871364.index
+>>>>>>> Stashed changes
+1059346286.index
+9489893.index
 3041421212.index
 2295034082.index
 3847921726.index
