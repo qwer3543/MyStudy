@@ -1,0 +1,51 @@
+
+public class Ex05_max_number {
+
+	public static void main(String[] args) {
+		// 숫자 3가지 중 가장 큰수를 구하시오
+		//a: 30 , b:60 , c: 20
+		//결과 -> 가장큰수 :60
+		
+		int a = 70;
+		int b = 80;
+		int c = 90;
+		
+		if (a>b && a>c ) {
+			System.out.println("가장큰수 : " + a);
+		}else if (b>a && b>c){
+			System.out.println("가장큰수 : " + b);
+		}else {
+			System.out.println("가장큰수 : " + c);
+		}
+		
+		//===========================================
+		System.out.println("=====================================");
+		
+		if (a > b) {
+			if (a >c) {
+				System.out.println("가장큰수 : " + a);
+			}
+		} else {
+			if (b > a) {
+				if (b >c) {
+					System.out.println("가장큰수 : " + b);
+				} else {
+					System.out.println("가장큰수 : " + c);
+				}
+			}
+		}
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

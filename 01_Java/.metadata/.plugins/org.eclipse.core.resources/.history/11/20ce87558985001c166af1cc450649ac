@@ -1,0 +1,21 @@
+package edu.class3.phone;
+
+public class PhoneMain {
+
+
+	public static void main(String[] args) {
+		String receiveText;
+		Phone myp = new Phone();
+		Phone freindP = new Phone("iPhone12", "Pro", true);
+		freindP.check();
+		System.out.println("===================");
+		myp.check();
+		
+		myp.sendSms("안녕");
+		
+		receiveText = myp.receiveSms("안녕");
+		System.out.println(receiveText);
+		
+	}
+	
+}

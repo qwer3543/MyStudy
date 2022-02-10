@@ -1,0 +1,49 @@
+package com.mystudy.string;
+
+import java.util.Arrays;
+
+public class Ex02_String_method {
+
+	public static void main(String[] args) {
+		
+		// String 클래스 메소드를 사용 문자열 처리(단, 원본문자열 불변)
+		//            0123456789
+		String str = "Java World";
+		
+		System.out.println(str);
+		
+		System.out.println("---- charAt(인덱스번호) ----");
+		
+		// .charAt(0) 해당 번호에 위치하는 문자를 char타입으로 출력한다
+		char ch = str.charAt(0);
+		
+		System.out.println(ch); // -> J
+		
+		
+		char[] ch2 = new char[4];
+		
+		for (int i = 0; i < ch2.length; i++) {
+			ch2[i] = str.charAt(i);
+		}
+		System.out.println(Arrays.toString(ch2));
+		
+		
+		System.out.println(">>> main 끝");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

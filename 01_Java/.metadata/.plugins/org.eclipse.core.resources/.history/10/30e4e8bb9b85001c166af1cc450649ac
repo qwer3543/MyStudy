@@ -1,0 +1,23 @@
+package com.mystudy.array;
+
+public class Ex02_array2 {
+
+	public static void main(String[] args) {
+		// 1~10까지의 수를 배열에 저장(저장할때 반복문사용)
+		
+		int[] qwer = new int[10];
+		
+	
+		
+		
+		for (int i = 0; i < qwer.length; i++) {
+			qwer[i] = 1 + i;
+			System.out.println(qwer[i]);
+		}
+		
+		
+		
+
+	}
+
+}

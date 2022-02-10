@@ -1,0 +1,49 @@
+package com.mystudy.string;
+
+public class Ex01_String_basic {
+
+	public static void main(String[] args) {
+		
+		// String 클래스: 문자열 저장, 처리하기 위한 클래스
+		// String 데이터 자체는 불변 값이다
+		
+		// 사용형식 2가지
+		// String str = "홍길동"; // 기본 데이터 타입 처럼 사용 (많이 쓰이지 않는다)
+		// String str = new String("홍길동"); // 객체(인스턴스)생성
+		
+		String str1 = "홍길동";
+		String str2 = "홍길동";
+		
+		System.out.println("str1: " + str1);
+		System.out.println("str2: " + str2);
+		
+		System.out.println(str2 == str2); // 동일 객체 여부 확인
+		
+		System.out.println("===== new 객체 생성 =====");
+		
+		
+		String strObj1 = new String("홍길동");
+		
+		System.out.println(str2 == strObj1); // 동일 객체 여부 확인
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

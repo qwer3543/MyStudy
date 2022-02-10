@@ -1,0 +1,32 @@
+package com.mystudy.array;
+
+public class Ex04_array_swap {
+
+	public static void main(String[] args) {
+		// 변수값 서로 교환하기
+		
+		int a = 100;
+		int b = 200;
+		
+		System.out.println("a: " + a);
+		System.out.println("b: " + b);
+		
+		System.out.println("===========================");
+		// a와 b의 값을 서로 교환하기
+		
+		int c = 0;
+		
+		c = a;
+		a = b;
+		b = c;
+		
+		System.out.println("a: " + a);
+		System.out.println("b: " + b);
+		
+		
+		
+		
+
+	}
+
+}

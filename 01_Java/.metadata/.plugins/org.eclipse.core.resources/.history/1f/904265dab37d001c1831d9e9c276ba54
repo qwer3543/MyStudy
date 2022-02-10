@@ -1,0 +1,38 @@
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		System.out.println("1234" + 1);
+		System.out.println(1+"5678");
+		System.out.println(1+5);
+		System.out.println("====================");
+		/*
+		 1. 화면에 삼각형 출력
+		 *
+		 **
+		 ***
+		 ****
+		 *****
+		 */
+		System.out.println("*");
+		System.out.println("**");
+		System.out.println("***");
+		System.out.println("****");
+		System.out.println("*****");
+		/*
+		 2. 화면에 삼각형 출력
+		     *
+		    **
+		   ***
+		  ****
+		 *****
+		 */
+		System.out.println("    *");
+		System.out.println("   **");
+		System.out.println("  ***");
+		System.out.println(" ****");
+		System.out.println("*****");
+		
+	}
+
+}

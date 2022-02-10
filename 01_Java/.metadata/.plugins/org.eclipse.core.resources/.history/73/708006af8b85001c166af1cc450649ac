@@ -1,0 +1,29 @@
+package edu.class3.phone;
+
+public class PhoneMain {
+
+
+	public static void main(String[] args) {
+		
+		// (기본) 생성자 
+		Phone myp = new Phone();
+		
+		myp.check();
+		
+		System.out.println("===================");
+		
+		// (입력받아 정의 하는) 생성자
+		Phone freindP = new Phone("iPhone12", "Pro", true);
+		
+		freindP.check();
+		
+		System.out.println("===================");
+		
+		
+		myp.sendSms("안녕");
+		
+		System.out.println(myp.receiveSms("안녕"));
+		
+	}
+	
+}

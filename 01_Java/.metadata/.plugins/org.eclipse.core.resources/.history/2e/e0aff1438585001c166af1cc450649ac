@@ -1,0 +1,16 @@
+package edu.class3.phone;
+
+public class PhoneMain {
+
+
+	public static void main(String[] args) {
+		Phone myp = new Phone();
+		Phone freindP = new Phone("iPhone12", "Pro", true);
+		freindP.check();
+		System.out.println("===================");
+		myp.check();
+		
+		
+	}
+	
+}

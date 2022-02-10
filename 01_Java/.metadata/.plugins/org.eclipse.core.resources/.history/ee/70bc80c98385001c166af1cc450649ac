@@ -1,0 +1,12 @@
+package edu.class3.phone;
+
+public class PhoneMain {
+
+	Phone myp = new Phone();
+
+	public static void main(String[] args) {
+		Phone freindP = new Phone("iPhone12", "Pro", true);
+		freindP.call();
+	}
+	
+}

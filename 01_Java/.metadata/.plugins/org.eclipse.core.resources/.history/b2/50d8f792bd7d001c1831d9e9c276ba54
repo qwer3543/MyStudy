@@ -1,0 +1,15 @@
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		// 10진수, 2진수, 8진수, 16진수
+		int x = 10; // 10진수
+		int y = 0b1010; // 2진수
+		
+		System.out.println("x = "+x);
+		System.out.println("y = "+y);
+		
+
+	}
+
+}

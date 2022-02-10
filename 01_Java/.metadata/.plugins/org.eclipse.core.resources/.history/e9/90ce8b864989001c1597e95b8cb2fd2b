@@ -1,0 +1,57 @@
+package com.mystudy.string;
+
+import java.util.Arrays;
+
+public class Ex02_String_method {
+
+	public static void main(String[] args) {
+		
+		// String 클래스 메소드를 사용 문자열 처리(단, 원본문자열 불변)
+		//            0123456789
+		String str = "Java World";
+		
+		System.out.println(str);
+		
+		System.out.println("---- charAt() : index번째 문자를 반환함 ----");
+		
+		// .charAt(0) 해당 번호에 위치하는 문자를 char타입으로 출력한다
+		char ch = str.charAt(0);
+		
+		System.out.println(ch); // -> J
+		
+		char[] ch2 = new char[4];
+		
+		for (int i = 0; i < ch2.length; i++) {
+			// ch2 변수에 str 변수값을 가져온다
+			ch2[i] = str.charAt(i);
+		}     // Arrays.toString(값) 값을 문자로 [] 안에 출력 해줌
+		System.out.println(Arrays.toString(ch2));
+		
+		System.out.println("---- compareTo() : 비교하여 결과로 양수, 음수, 0의 값을 반환함 ----");
+		
+		// .compareTo 검사 결과가 0이면 같다는 뜻 이외 값들은 다르다는 뜻
+		System.out.println("java".compareTo("java"));
+		
+		// 앞쪽에 있는 문자을 .compareTo() 안에 들어가는 문자와 비교한다
+		System.out.println("aaa".compareTo("bbb"));
+		
+		System.out.println("---- copyValueOf() : 문자 배열값을 문자열로 복사함 ----");
+		
+		char[] ch3 = { 'a', 'b', 'c', 'd'};
+		
+		System.out.println(Arrays.toString(ch3));
+		
+		// .copyValueOf(ch3) -> ch3 값을 str 변수로 보낸다
+		str = String.copyValueOf(ch3);
+		
+		System.out.println(str);
+		
+		System.out.println("==========================");
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+// package 선언문 설정한다 (현위치 에서 작성 함)
+
+// import 선언문 (필요하다면)
+
+// class 선언문 설정한다 (필수)
+
+public class Ex01_package_import_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

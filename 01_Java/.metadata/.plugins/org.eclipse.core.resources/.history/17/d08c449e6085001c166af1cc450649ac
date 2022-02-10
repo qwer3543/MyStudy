@@ -1,0 +1,10 @@
+package edu.class1.basic;
+
+public class Ex03_method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

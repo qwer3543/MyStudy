@@ -1,0 +1,63 @@
+package com.mystudy.array2_sort;
+
+public class ArraySelectionSort {
+
+	public static void main(String[] args) {
+		/* 배열 숫자 데이터 정렬(오름차순: ASC, 내림차순: DSC)
+		   
+		 */
+		
+		int[] num = {30, 20, 50, 40, 10};
+		//int[] nums = num; // 좌표 값을 공유한다는 뜻으로 값이 같이 바뀐다
+		//int[] nums = num.clone(); // 재사용을 위한 복사본 만들기
+		
+		// 데이터 확인 
+		
+		System.out.println("=== num의 원본 데이터 ===");
+		
+		printData(num);
+		
+		System.out.println("=== nums의 원본 데이터 ===");
+		
+		
+		printData(num);
+		
+		System.out.println("=== 정렬 시작 ===");
+		// 첫번째 값 기준으로 비교작업
+		
+		int kkk; // 교환용 저장공간
+		
+		for (int i = 0; i <= 4; i++) {
+			if (num[i] > num[1]) {
+				kkk = num[i];
+				num[i] = num[1];
+				num[1] = kkk;
+			} else if (num[i] > num[2]) {
+				kkk = num[i];
+				num[i] = num[2];
+				num[2] = kkk;
+			} else if (num[i] > num[3]) {
+				kkk = num[i];
+				num[i] = num[3];
+				num[3] = kkk;
+			} else if (num[i] > num[4]) {
+				kkk = num[i];
+				num[i] = num[4];
+				num[4] = kkk;
+			}
+		
+		}
+		printData(num);
+		
+		
+		
+	}
+	
+	static void printData(int[] num) { //원본 데이터 가져오기
+		for (int i = 0; i < num.length; i++) {
+			System.out.print(num[i] + " ");
+		}
+		System.out.println();
+	}
+
+}
