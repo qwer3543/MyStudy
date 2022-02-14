@@ -123,13 +123,7 @@ public class Student { //extends Object 작성 안하면 컴파일러가 자동 
 	}
 	
 	
-	public boolean isOk() {
-		return ok;
-	}
-
-	public void setOk(boolean ok) {
-		this.ok = ok;
-	}
+	
 
 
 	
