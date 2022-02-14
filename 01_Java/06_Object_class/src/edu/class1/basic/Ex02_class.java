@@ -3,7 +3,9 @@ package edu.class1.basic;
 public class Ex02_class {
 	//======== 변수 선언 영역 =========
 	// 필드변수(인스턴스변수, 멤버변수, 속성-propertyy)선언
-	int num = 111; 
+	int num = 111;
+
+	
 	
 	// 클래스변수, 스테틱(static)변수, 인스턴스(객체) 공통변수
 	static int staticNum = 222;
@@ -18,6 +20,7 @@ public class Ex02_class {
 	// main 메소드
 	public static void main(String[] args) {
 		// 로컬변수(지역변수)
+		
 		int num1 = 100;
 		int num2 = 200;
 		int k = num1 + num2;

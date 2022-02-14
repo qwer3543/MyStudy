@@ -94,7 +94,7 @@ public class Ex04_StringExam2 {
 		}
 		
 		System.out.println("-----------------------");
-		System.out.println("깃 연동 테스트");
+		
 		
 	}
 
