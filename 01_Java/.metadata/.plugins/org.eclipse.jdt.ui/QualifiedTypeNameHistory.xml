@@ -7,4 +7,10 @@
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="com.mystudy.ex04_interface.I_WebPhone"/>
+<fullyQualifiedTypeName name="com.mystudy.ex04_interface.I_Mp3Phone"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.mtstudy.poly1.extrnds.FireEngine"/>
+<fullyQualifiedTypeName name="com.mtstudy.poly2.overriding.Animal"/>
+<fullyQualifiedTypeName name="com.mtstudy.poly4_interface.Animal"/>
 </qualifiedTypeNameHistroy>
