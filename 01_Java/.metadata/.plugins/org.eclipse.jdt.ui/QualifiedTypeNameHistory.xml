@@ -1,22 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-<<<<<<< Updated upstream
-<fullyQualifiedTypeName name="com.mystudy.ex04_interface.I_WebPhone"/>
-<fullyQualifiedTypeName name="com.mystudy.ex04_interface.I_Mp3Phone"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="com.mtstudy.poly1.extrnds.FireEngine"/>
-<fullyQualifiedTypeName name="com.mtstudy.poly2.overriding.Animal"/>
-<fullyQualifiedTypeName name="com.mtstudy.poly4_interface.Animal"/>
-=======
-<fullyQualifiedTypeName name="com.mystudy.ex01_class.Mp3Phone"/>
-<fullyQualifiedTypeName name="com.mystudy.ex02_extends.Phone"/>
-<fullyQualifiedTypeName name="com.mystudy.ex02_extends.Mp3Phone"/>
->>>>>>> Stashed changes
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
