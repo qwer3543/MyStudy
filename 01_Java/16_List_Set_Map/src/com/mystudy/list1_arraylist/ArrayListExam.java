@@ -1,4 +1,4 @@
-package com.mustudy.list1_arraylist;
+package com.mystudy.list1_arraylist;
 
 import java.util.ArrayList;
 import java.util.Collections;

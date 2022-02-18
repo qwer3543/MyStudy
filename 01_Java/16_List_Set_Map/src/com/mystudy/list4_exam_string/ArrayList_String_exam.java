@@ -1,4 +1,4 @@
-package com.mustudy.list4_exam_string;
+package com.mystudy.list4_exam_string;
 
 import java.util.ArrayList;
 

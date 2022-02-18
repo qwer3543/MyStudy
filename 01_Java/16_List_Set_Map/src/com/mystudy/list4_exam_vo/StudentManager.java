@@ -1,4 +1,4 @@
-package com.mustudy.list4_exam_vo;
+package com.mystudy.list4_exam_vo;
 
 import java.util.ArrayList;
 
@@ -46,6 +46,8 @@ public class StudentManager {
 			}
 		}
 		System.out.println(list.get(2));
+		
+		
 		
 	}
 

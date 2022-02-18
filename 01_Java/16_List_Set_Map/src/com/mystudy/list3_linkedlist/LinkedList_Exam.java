@@ -1,4 +1,4 @@
-package com.mustudy.list3_linkedlist;
+package com.mystudy.list3_linkedlist;
 
 import java.util.Arrays;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package com.mustudy.list2_vector;
+package com.mystudy.list2_vector;
 
 import java.util.Enumeration;
 import java.util.Iterator;
