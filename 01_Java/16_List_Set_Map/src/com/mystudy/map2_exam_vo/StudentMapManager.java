@@ -1,6 +1,11 @@
 package com.mystudy.map2_exam_vo;
 
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.Map.Entry;
 
 public class StudentMapManager {
 
@@ -19,9 +24,15 @@ public class StudentMapManager {
 		StudentVO k3 = new StudentVO("김유신", 90, 87, 77);
 		//2. Map<String, StudentVO> 타입의 변수(map)에 저장하고
 		
-		Map<String, StudentVO> map = new Map<String, StudentVO>();
+		Map<String, StudentVO> map = new HashMap<String, StudentVO>();
 		
+		map.put("홍길동", k1);
+		map.put("이순신", k2);
+		map.put("김유신", k3);
 		
+		System.out.println(map.get("홍길동").name + "\t" +map.get("홍길동").kor +
+						  "\t" +map.get("홍길동").eng + "\t" +map.get("홍길동").math +
+						  "\t" +map.get("홍길동").tot + "\t" +map.get("홍길동").avg);
 		/*3. map에 있는 데이터를 사용해서 화면출력
 		   성명    국어   영어  수학    총점     평균
 		   --------------------------
@@ -29,7 +40,11 @@ public class StudentMapManager {
 		   ...
 		   -----------------------------
 		   */
+	
 		//4. 저장된 map에 있는 김유신 학생의 국어 점수를 95점으로 수정
+	
+		
+		
 		
 		//5. "김유신" 학생의 성적만 화면 출력
 		//5-2. "김유신" 학생의 성명, 총점, 평균 화면 출력

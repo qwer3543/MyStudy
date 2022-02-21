@@ -79,11 +79,11 @@ public class StudentVO {
 		avg = (int) (tot * 100 / 3 / 100.0);
 	}
 
-	@Override
-	public String toString() {
-		return name + "\t" + kor + "\t" + eng + "\t" + math + "\t" + tot
-				+ "\t" + avg;
-	}
+//	@Override
+//	public String toString() {
+//		return name + "\t" + kor + "\t" + eng + "\t" + math + "\t" + tot
+//				+ "\t" + avg;
+//	}
 	
 	
 	
