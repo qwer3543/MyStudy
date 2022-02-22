@@ -38,7 +38,7 @@ public class StudentVo {
 	}
 	
 	public StudentVo(String name) {
-		;
+		
 		
 	}
 	
