@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
@@ -13,4 +12,15 @@
 <fullyQualifiedTypeName name="com.mtstudy.poly1.extrnds.FireEngine"/>
 <fullyQualifiedTypeName name="com.mtstudy.poly2.overriding.Animal"/>
 <fullyQualifiedTypeName name="com.mtstudy.poly4_interface.Animal"/>
+<fullyQualifiedTypeName name="com.mystudy.ex01_random.Random_Exam1"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="com.mystudy.io2_fileinputstream.FileInputStream_Ex1"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.mystudy.io2_fileinputstream.FilelnInputStream_Ex3"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
