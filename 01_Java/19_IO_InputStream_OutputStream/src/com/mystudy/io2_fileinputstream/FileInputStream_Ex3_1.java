@@ -21,12 +21,7 @@ public class FileInputStream_Ex3_1 {
 			byte[] bytes = new byte[10];
 			System.out.println("bytes : " + Arrays.toString(bytes));
 			
-			int byteCnt = fis.read(bytes);
-			System.out.println("읽은 갯수 : " + byteCnt);
-			System.out.println("읽어온 값 : " + Arrays.toString(bytes));
-			for (int i = 0; i < byteCnt; i++) {
-				System.out.println("int값: " + bytes[i] + ", char: " + (char)bytes[i]);
-			}
+			int byteCnt;
 			
 			byteCnt = fis.read(bytes);
 			System.out.println("읽은 갯수 : " + byteCnt);
@@ -35,12 +30,7 @@ public class FileInputStream_Ex3_1 {
 				System.out.println("int값: " + bytes[i] + ", char: " + (char)bytes[i]);
 			}
 			
-			byteCnt = fis.read(bytes);
-			System.out.println("읽은 갯수 : " + byteCnt);
-			System.out.println("읽어온 값 : " + Arrays.toString(bytes));
-			for (int i = 0; i < byteCnt; i++) {
-				System.out.println("int값: " + bytes[i] + ", char: " + (char)bytes[i]);
-			}
+			
 			
 			//--------------------------------
 			byteCnt = fis.read(bytes);

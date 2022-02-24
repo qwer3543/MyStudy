@@ -44,6 +44,7 @@ public class StudentManager {
 			if (list.get(i).getName().equals("김유신")) {
 				list.get(i).setKor(95);;
 			}
+			
 		}
 		System.out.println(list.get(2));
 		
